@@ -25,13 +25,14 @@
         background-color: #000;
     }
 </style>
+
 <header class="header">
     <section>
         <a role="button" href="/">Home</a>
         <a role="button" href="/about"> About</a>
-        <a role="button" href="/blog"> Blog</a>
         <a role="button" href="/products"> Products</a>
+        <!-- kinda makes the website look cool so I'll keep this in-->
+        <a role="button" href="/login"> Login </a>        
 
-        <a role="button" href="/login"> Login </a>
     </section>
-</header>
+</header> 
