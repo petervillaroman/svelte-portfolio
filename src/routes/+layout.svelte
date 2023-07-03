@@ -1,27 +1,22 @@
 <script>
-    import '@picocss/pico';
-    import '../styles/app.css';
-    import { setInitialTheme } from '../theme.js';
-    import Header from '../lib/header.svelte';
-    import Footer from '../lib/footer.svelte';
-    import ModeSwitch from '../lib/mode-switch.svelte';
-    import { onMount } from 'svelte';
+	import '@picocss/pico';
+	import '../styles/app.css';
+	import { setInitialTheme } from '../theme.js';
+	import Header from '../lib/header.svelte';
+	import Footer from '../lib/footer.svelte';
+	import { onMount } from 'svelte';
 
-
-    // Call the setInitialTheme function when the component mounts
-    onMount(setInitialTheme);
+	// Call the setInitialTheme function when the component mounts
+	onMount(setInitialTheme);
 </script>
 
 <main class="container">
-    <article>
+	<article>
+		<Header />
 		<section>
-			<ModeSwitch>
-			</ModeSwitch>
+			<slot />
 		</section>
-        <Header />
-        <section>
-            <slot />
-        </section>
-        <Footer />
-    </article>
+
+		<Footer />
+	</article>
 </main>

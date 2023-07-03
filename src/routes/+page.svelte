@@ -2,24 +2,12 @@
 	import '@picocss/pico';
 	import '../styles/app.css';
 	import { goto, beforeNavigate, afterNavigate } from '$app/navigation';
-
-	const handleClick = () => {
-		console.log('Placing your order...');
-		goto('/products');
-	};
-
-	beforeNavigate((navigation) => {
-		console.log({ before: navigation });
-	});
-	afterNavigate((navigation) => {
-		console.log({ after: navigation });
-	});
+	import {slide, fly, fade } from 'svelte/transition'
 </script>
 
 <main class="container">
-	<h1 class="text-red">Welcome to my Svelte-kit site!</h1>
+	<h1 class="text-red" in:fly={{y:200, duration: 500,}} >Welcome to my Svelte-kit site!</h1>
 
-	<button on:click={handleClick}> Place order </button>
 </main>
 
 <style>

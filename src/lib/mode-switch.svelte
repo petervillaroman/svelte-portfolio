@@ -1,5 +1,6 @@
 <script>
     import { toggleTheme, currentTheme } from '../theme.js';
+
 </script>
 
 <button on:click={toggleTheme}>
@@ -8,15 +9,18 @@
 
 <style>
     button {
+        display: inline-block;
+        width: 200px;  /* Adjust this as needed */
+        height: 50px;  /* Adjust this as needed */
         background-color: #f76027;
         color: white;
         border: none;
         border-radius: 4px;
         padding: 0.5rem;
-        text-transform: uppercase;
+        text-transform: lowercase;
     }
     :global(html[data-theme="dark"]) button {
-        background-color: #0084f6;
+        background-color: #3366ff;
         color: white;
     }
 </style>
