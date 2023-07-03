@@ -14,7 +14,7 @@
 		if (isNaN(id)) {
 			throw new Error('Invalid id');
 		} else {
-            productsId = id;
+			productsId = id;
 			double = id * 2;
 			quadruple = id * 4;
 			octuple = double * quadruple;
