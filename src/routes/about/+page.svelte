@@ -1,3 +1,18 @@
-<h1>About Me:</h1>
+<script>
+	import Dropdown from '$lib/dropdown.svelte';
+	import Quote from '$lib/quote.svelte';
+</script>
 
-<body>I'm <code>Karell </code> and I'm here to learn Svelte.</body>
+<Dropdown/>
+<Quote/>
+
+<!-- <div class="grid">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<div>5</div>
+	<div>6</div>
+	<div>7</div>
+	<div>8</div>
+</div> -->

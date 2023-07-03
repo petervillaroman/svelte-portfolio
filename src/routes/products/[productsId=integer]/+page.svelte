@@ -1,6 +1,5 @@
 <script>
 	import { page } from '$app/stores';
-	import { onMount } from 'svelte';
 
 	console.log($page.params);
 
@@ -9,7 +8,7 @@
 	let quadruple;
 	let octuple;
 
-	onMount(() => {
+	$: {
 		const id = +$page.params.productsId;
 		if (isNaN(id)) {
 			throw new Error('Invalid id');
@@ -19,7 +18,7 @@
 			quadruple = id * 4;
 			octuple = double * quadruple;
 		}
-	});
+	}
 </script>
 
 <h1>{productsId}</h1>

@@ -17,11 +17,7 @@
 </script>
 
 <main class="container">
-	<h1 class="text-red">Welcome home!</h1>
-	<form>
-		<input type="text" />
-		<button type="submit">Action</button>
-	</form>
+	<h1 class="text-red">Welcome to my Svelte-kit site!</h1>
 
 	<button on:click={handleClick}> Place order </button>
 </main>
