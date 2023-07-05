@@ -4,19 +4,19 @@
 </script>
 
 <button on:click={toggleTheme}>
-    {$currentTheme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
+    {$currentTheme === 'light' ? ' Dark Mode' : ' Light Mode'}
 </button>
 
 <style>
     button {
         display: inline-block;
-        width: 200px;  /* Adjust this as needed */
-        height: 50px;  /* Adjust this as needed */
+        width: 4rem;  /* Adjust this as needed */
+        height: 3rem;  /* Adjust this as needed */
         background-color: #f76027;
         color: white;
         border: none;
-        border-radius: 4px;
-        padding: 0.5rem;
+        border-radius: 10px;
+        padding: 0;
         text-transform: lowercase;
     }
     :global(html[data-theme="dark"]) button {
