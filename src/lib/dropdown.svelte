@@ -14,7 +14,7 @@
 <details>
 	<summary role="button">my work</summary>
 	<div class="grid">
-		<div><a href="https://petervillaroman.github.io/catsbook/"> Meowsbook </a></div>: A social media mockup for cats
-		<div><a href="https://petervillaroman.github.io/nellis-auction-bid-calculator/"> Nellisauction Bid Calculator </a></div>: A standalone react webapp calculator for Nellisauction.com
+		<div><a href="https://petervillaroman.github.io/catsbook/"> Meowsbook </a></div>
+		<div><a href="https://petervillaroman.github.io/nellis-auction-bid-calculator/"> Nellisauction Bid Calculator </a></div>
 	</div>
 </details>
