@@ -42,6 +42,6 @@
 
 <style>
 	.name {
-		color: #f76027;
+		color: var(--primary-complement);
 	}
 </style>

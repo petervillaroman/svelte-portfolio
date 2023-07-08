@@ -6,6 +6,7 @@
   --primary-hover: #fbc02d;
   --primary-focus: rgba(253, 216, 53, 0.125);
   --primary-inverse: rgba(0, 0, 0, 0.75);
+  --primary-complement: #f76027;
 }
 
 /* Yellow Dark scheme (Auto) */
