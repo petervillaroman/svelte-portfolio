@@ -12,5 +12,6 @@
 </style>
 <div class="grid">
 <footer class="footer"><p>&copy; 2023 Peter Villaroman. All rights reserved.</p></footer>
+
 <ModeSwitch />
 </div>
