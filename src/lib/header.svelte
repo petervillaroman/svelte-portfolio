@@ -33,7 +33,7 @@
     <section>
         <a role="button" href="/">Home</a>
         <a role="button" href="/about"> About</a>
-
+        <a role="button" href="/contact">Contact</a>
         <!-- kinda makes the website look cool so I'll keep this in-->      
 
     </section>
