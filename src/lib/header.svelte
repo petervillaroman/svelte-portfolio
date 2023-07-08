@@ -9,7 +9,7 @@
 <style>
     .header section {
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         align-items: center;
         padding: 1rem;
         background-color: #befd35;
@@ -34,7 +34,6 @@
         <a role="button" href="/">Home</a>
         <a role="button" href="/about"> About</a>
 
-        <ModeSwitch/>
         <!-- kinda makes the website look cool so I'll keep this in-->      
 
     </section>

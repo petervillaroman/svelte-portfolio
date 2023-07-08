@@ -9,8 +9,14 @@
 </script>
 
 <main class="container">
-	<h1 class="text-red" in:fly={{y:200, duration: 500,}} >Welcome to my Svelte-Kit site</h1>
-
+	<div class="grid">
+	<h1 class="text-red" in:fly={{y:200, duration: 500,}} >
+	Hello World!
+	</h1>
+	<h4>
+		Welcome to my humble corner of the internet. 
+	</h4>
+</div>
 </main>
 
 <style>
