@@ -24,7 +24,7 @@
 <div class="grid" >
 <h1>
 	My name is 
-	<div class="name"  in:colorChange={{ duration: 3000}}><b>KARELL PETER</b></div>
+	<div class="name"  in:colorChange={{ duration: 3000, delay:500}}><b>KARELL PETER</b></div>
 	 Villaroman
 </h1>
 

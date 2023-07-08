@@ -17,6 +17,8 @@
     --primary-hover: #ffeb3b;
     --primary-focus: rgba(253, 216, 53, 0.25);
     --primary-inverse: rgba(0, 0, 0, 0.75);
+    --primary-complement: #27f760;
+
   }
 }
 
@@ -27,6 +29,8 @@
   --primary-hover: #ffeb3b;
   --primary-focus: rgba(253, 216, 53, 0.25);
   --primary-inverse: rgba(0, 0, 0, 0.75);
+  --primary-complement: #27f760;
+
 }
 
 /* Yellow (Common styles) */
