@@ -33,7 +33,6 @@
 		Software Engineer Intern at <a href="https://www.nellisauction.com/">Nellisauction.com</a>.
 	</h5>
 </div>
-<section />
 <div class="grid">
 	<Dropdown />
 </div>
