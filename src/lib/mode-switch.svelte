@@ -3,11 +3,12 @@
 </script>
 
 <div class="grid">
-    {#if $currentTheme === 'light'}
-    <div>dark mode?</div>  <!-- content here -->
-    {:else}
-    <div>light mode?</div>
-    {/if}
+	{#if $currentTheme === 'light'}
+		<div>dark mode?</div>
+		<!-- content here -->
+	{:else}
+		<div>light mode?</div>
+	{/if}
 	<button on:click={toggleTheme}>
 		{$currentTheme === 'light' ? ' 🌙' : '☀️ '}
 	</button>
@@ -28,8 +29,8 @@
 		background-color: #3366ff;
 		color: white;
 	}
-    .grid{
-        display: flex;
-        justify-content: space-between;
-    }
+	.grid {
+		display: flex;
+		justify-content: space-between;
+	}
 </style>

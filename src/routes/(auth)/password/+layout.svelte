@@ -1,2 +1,2 @@
-<p> Password Layout</p>
+<p>Password Layout</p>
 <slot />
