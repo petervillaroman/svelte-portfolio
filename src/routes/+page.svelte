@@ -3,22 +3,28 @@
 	import '../styles/app.css';
 	import { goto, beforeNavigate, afterNavigate } from '$app/navigation';
 	import { slide, fly, fade } from 'svelte/transition';
+
 </script>
+
+
 
 <main class="container">
 	<div class="grid">
 		<h1 class="greeting" in:fade={{ duration: 1500, delay: 300 }}>Hello World!</h1>
 		<div class="welcome-column">
+
 				<img class="welcome-column-element" src="penny.jpeg" alt="a gray cat" />
+
 			<h4 class="welcome-column-element">Welcome to my humble corner of the internet.</h4>
 		</div>
 	</div>
+
 </main>
 
 <style>
 	img {
-		width: 60%;
-		height: 60%;
+		width: 50%;
+		height: 50%;
 		background-color: black;
 		padding: 2rem;
 	}

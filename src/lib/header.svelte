@@ -10,6 +10,7 @@
 		<a role="button" href="/" >Home</a>
 		<a role="button" href="/about" >About</a>
 		<a role="button" href="/contact" >Contact</a>
+		<a role="button" href="/kanye" >Kanye</a>
 	</section>
 </header>
 
