@@ -11,6 +11,7 @@
 		<a role="button" href="/about">About</a>
 		<a role="button" href="/contact">Contact</a>
 		<a role="button" href="/kanye">Kanye</a>
+		<a role="button" href="/projects">Projects</a>
 	</section>
 </header>
 
