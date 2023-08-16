@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import Modal from './Modal.svelte';
+	import Modal from './modal.svelte';
 	let quote = '';
 	export const ssr = false;
 
@@ -35,7 +35,7 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-		<img src="kanye1.png" alt="Kanye West" on:click={getData} />
+		<img src="../../kanye1.png" alt="Kanye West" on:click={getData} />
 		<div class="quote">
 			<blockquote>
 				<h2>
