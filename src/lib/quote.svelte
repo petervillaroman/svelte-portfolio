@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import Modal from './Modal.svelte';
+	import Modal from './modal.svelte';
 	let quote = '';
 	export const ssr = false;
 
