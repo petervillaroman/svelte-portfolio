@@ -31,15 +31,14 @@
     }
   }
 
-  function calculateNecessaryBid() {
-    if (isNaN(maxPrice) || maxPrice === '') {
-      alert(" Oops! That was not a valid number. Try again...");
-    } else {
-      let price = parseInt(maxPrice);
-      price = price - (price * 0.15);
-      necessaryPrice = (price - (price * taxRates[state])).toFixed(2);
-    }
+function calculateNecessaryBid() {
+  if (isNaN(maxPrice) || maxPrice === '') {
+    alert(" Oops! That was not a valid number. Try again...");
+  } else {
+    let price = parseFloat(maxPrice); // Convert the string to a float
+    necessaryPrice = (price / (1 + 0.15) / (1 + taxRates[state])).toFixed(2);
   }
+}
 </script>
 
 <style>
