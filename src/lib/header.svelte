@@ -7,10 +7,10 @@
 
 <header class="header">
 	<section>
-		<a role="button" href="/">Home</a>
-		<a role="button" href="/about">About</a>
-		<a role="button" href="/contact">Contact</a>
-		<a role="button" href="/projects">Projects</a>
+		<a  href="/">Home</a>
+		<a  href="/about">About</a>
+		<a  href="/contact">Contact</a>
+		<a  href="/projects">Projects</a>
 	</section>
 </header>
 
