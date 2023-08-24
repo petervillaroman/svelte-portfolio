@@ -43,16 +43,24 @@ function calculateNecessaryBid() {
 
 <style>
   /* Your CSS goes here */
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 0.75;
+    color: #f76027;
+    align-self: center;
+  }
 </style>
 
 <div class="landing-block">
   <h1 class="tool-name">Nellis Auction Customer Bid Tools</h1>
-  <p class="tool-description">Easily calculate your bid price based on state taxes and other factors. Stay informed and make better bidding decisions!</p>
+  <p class="tool-description">Easily calculate your bid price based on state taxes and Nellis' buyer premium. Stay informed and make better bidding decisions!</p>
 </div>
 
+<section>
 <div class="Container">
   <div>
-    <h2>Set your state</h2>
+    <h2>First, set your state</h2>
     <select bind:value={state}>
       {#each Object.keys(taxRates) as stateKey (stateKey)}
         <option value={stateKey}>{stateKey}</option>
@@ -60,21 +68,25 @@ function calculateNecessaryBid() {
     </select>
   </div>
 </div>
+</section>
 
-<div class="Container">
-  <div class="App">
-    <h2>If you bid:</h2>
+
+<section>
+  <h1>Final price calculator</h1>
+    <h3>ENTER BID PRICE:</h3>
     <input type="text" placeholder="Enter your bid price" bind:value={bidPrice} on:input={e => validateAndSetBidPrice(e.target.value)} />
-    <h2> Your total price will be:</h2>
+    
     <button on:click={calculateBidTotal}>Calculate</button>
-    <p>Total Price: <b>{finalPrice}</b></p>
-  </div>
+    <h3> TOTAL PRICE: <b>{finalPrice}</b></h3>
+  </section>
 
+<section>
   <div class="App">
     <h1> Maximum spend calculator</h1>
-    <h3>Set your maximum budget</h3>
+    <h3>SET MAXIMUM BUDGET</h3>
     <input type="text" placeholder="Enter your max price" bind:value={maxPrice} on:input={e => validateAndSetMaxPrice(e.target.value)} />
     <button on:click={calculateNecessaryBid}>Calculate</button>
-    <p>Necessary Price: <b>{necessaryPrice}</b></p>
+    <h3>MAXIMUM BID: <b>{necessaryPrice}</b></h3>
   </div>
-</div>
+</section>
+
