@@ -1,6 +1,6 @@
 <script>
     // Images paths are now direct, assuming they are correctly placed in the `static/images` directory
-    let images = ['../../shotaPortrait.jpg', '../../naraLick.jpg', '../../vanNeon.jpg'];
+    let images = ['../../shotaPortrait.avif', '../../naraLick.avif', '../../vanNeon.avif'];
     let zoomedImage = null;
   
     function toggleZoom(image) {
