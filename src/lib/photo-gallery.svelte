@@ -1,12 +1,19 @@
 <script>
     // Images paths are now direct, assuming they are correctly placed in the `static/images` directory
-    let images = ['../../shotaPortrait.avif', '../../naraLick.avif', '../../vanNeon.avif'];
+    let images = ['../../shotaPortrait.avif', '../../naraLick.avif', '../../vanNeon.avif', '../../sassyGuy.avif', '../../walkingGuy.avif', '../../rosary.avif', '../../maggie.avif', '../../josh.avif'];
     let zoomedImage = null;
   
     function toggleZoom(image) {
       zoomedImage = zoomedImage === image ? null : image;
     }
   </script>
+
+  <section> 
+<h1 align="left">Hello and welcome to my photo gallery. </h1>
+
+<p>This is a random accumulation of photos that I took. I bring my camera everywhere and photograph anything and everything that I see beauty in. </p>
+<p>If anything speaks to you I give you express permission to download it  and use it however you want I just ask that you contact me to inform me about its usage at "petervillaroman@gmail.com".</p>
+    </section>
   
   <!-- Optional: Overlay for displaying the zoomed image -->
   {#if zoomedImage}
