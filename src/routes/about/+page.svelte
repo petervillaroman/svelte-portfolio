@@ -24,13 +24,13 @@
 <div class="grid">
 	<h1>
 		My name is
-		<div class="name" in:colorChange={{ duration: 3000, delay: 500 }}><b>KARELL PETER</b></div>
+		<div class="name" in:colorChange={{ duration: 1500, delay: 500 }}><b>KARELL PETER</b></div>
 		Villaroman
 	</h1>
 
 	<h5>
-		I am a 3rd year Computer Science student at the University of Nevada, Las Vegas. I am also a
-		Software Engineer Intern at <a href="https://www.nellisauction.com/">Nellisauction.com</a>.
+		I am a 4th year Computer Science student at the University of Nevada, Las Vegas. I am also a
+		Software Engineering Intern at <a href="https://www.nellisauction.com/">Nellisauction.com</a>.
 	</h5>
 </div>
 <section />
