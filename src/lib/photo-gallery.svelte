@@ -1,6 +1,6 @@
 <script>
     // Images paths are now direct, assuming they are correctly placed in the `static/images` directory
-    let images = ['../../shotaPortrait.avif', '../../naraLick.avif', '../../vanNeon.avif', '../../sassyGuy.avif', '../../walkingGuy.avif', '../../rosary.avif', '../../maggie.avif', '../../josh.avif', '../../bikeGuy.avif', '../../bunnyChickens.avif', '../../maggieBunnyIkea.avif', '../../naraUpsidedown.avif', '../../maggieCostco.avif'];
+    let images = ['../../bunnyPark.avif', '../../shotaPortrait.avif', '../../naraLick.avif', '../../vanNeon.avif', '../../sassyGuy.avif', '../../walkingGuy.avif', '../../rosary.avif', '../../maggie.avif', '../../josh.avif', '../../bikeGuy.avif', '../../bunnyChickens.avif', '../../maggieBunnyIkea.avif', '../../naraUpsidedown.avif', '../../maggieCostco.avif', '../../lyraPark.avif'];
     let zoomedImage = null;
   
     function toggleZoom(image) {
