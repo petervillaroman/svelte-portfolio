@@ -7,10 +7,10 @@
 
 <header class="header">
 	<section>
-		<a  href="/">Home</a>
-		<a  href="/about">About</a>
-		<a  href="/contact">Contact</a>
-		<a  href="/projects">Projects</a>
+		<a href="/">Home</a>
+		<a href="/about">About</a>
+		<a href="/contact">Contact</a>
+		<a href="/projects">Projects</a>
 		<a href="/photos">Photos</a>
 		<a href="/music">Music</a>
 	</section>

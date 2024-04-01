@@ -1,6 +1,5 @@
 <script>
-    import NellisCalculator from '$lib/nellis-calculator.svelte'
-
+	import NellisCalculator from '$lib/nellis-calculator.svelte';
 </script>
 
 <NellisCalculator />

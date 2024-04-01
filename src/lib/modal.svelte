@@ -29,8 +29,8 @@
 		border-radius: 0.2em;
 		border: none;
 		padding: 0;
-        width: 50%;
-        height: 50%;
+		width: 50%;
+		height: 50%;
 	}
 	dialog::backdrop {
 		background: rgba(0, 0, 0, 0.3);

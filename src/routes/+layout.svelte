@@ -8,7 +8,6 @@
 
 	// Call the setInitialTheme function when the component mounts
 	onMount(setInitialTheme);
-	
 </script>
 
 <main class="container">

@@ -1,6 +1,5 @@
 <script>
-    import PhotoGallery from '../../lib/photo-gallery.svelte'
-
+	import PhotoGallery from '../../lib/photo-gallery.svelte';
 </script>
 
-<PhotoGallery/>
+<PhotoGallery />
