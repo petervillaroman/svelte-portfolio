@@ -25,6 +25,9 @@
 </script>
 
 <section>
+	<h1>HAHA ZINE vol.1</h1>
+</section>
+<section>
 	<h1 align="left">Hello and welcome to my photo gallery.</h1>
 
 	<p>
@@ -67,7 +70,7 @@
 		justify-content: center; /* Center images horizontally */
 		align-items: center; /* Center images vertically */
 		flex: 1 0 calc(33.333% - 20px); /* Adjust the flex-basis to control the size, accounting for gap */
-		max-width: 200px; /* Maximum width of a photo */
+		max-width: 400px; /* Maximum width of a photo */
 	}
 	.photo img {
 		width: 100%; /* Full width of the container */
