@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { onMount } from 'svelte';
 	let pdfHeight = 0;
 
@@ -25,4 +25,10 @@
 		height: var(--pdfHeight); /* Dynamically adjusted height using CSS variable */
 		border: none; /* No border for cleaner integration */
 	}
-</style>
+</style> -->
+
+<script>
+	import PdfViewer from 'svelte-pdf';
+</script>
+
+<PdfViewer url="/hahaZine.pdf" />
