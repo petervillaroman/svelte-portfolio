@@ -31,4 +31,4 @@
 	import PdfViewer from 'svelte-pdf';
 </script>
 
-<PdfViewer url="/hahaZine.pdf" />
+<PdfViewer showButtons={['zoom', 'navigation', 'download']} url="/hahaZine.pdf" />
